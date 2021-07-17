@@ -5,7 +5,7 @@ const PORT = 8080;
 const app = express();
 
 app.set("views", "./views");
-app.set("view engine", "pug");
+app.set("view engine", "ejs");
 
 //objeto con el mensaje de error para producto no encontrado
 const NO_PRODUCT_FOUND = {
